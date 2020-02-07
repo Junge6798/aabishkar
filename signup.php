@@ -26,8 +26,30 @@
        }
     }
 
+// TODO DB connection
+$servername = 'localhost';
+$username = 'root';
+$password = '';
+$dbname = 'aabishkar';
 
-//TODO DB connection
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// check connection
+if($conn->connect_error){
+    die("Connection failed: ".$conn->connect_error);
+}
+$sql = "INSERT INTO aabishkar_users (firstname, lastname, email)
+VALUES ('$fname','$lname','$email')";
+
+if($conn->query($sql)==True){
+    echo "New record created successfully!";
+}
+else{
+    echo "Error: ".$sql."<br>".$conn->error;
+}
+$conn->close();
+
 
 
 ?>
