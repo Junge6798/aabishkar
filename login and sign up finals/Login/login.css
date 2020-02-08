@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    /* background: #060c21; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    background: rgba(0, 0, 0, .8);
+    padding: 60px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5); 
+    border-radius: 10px;
+}
+
+.container h1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.container .inputbox{
+    position: relative;
+}
+.container .inputbox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.container .inputbox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 22px;color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    pointer-events: none;
+    transition: .5s;
+}
+.container .inputbox input:focus ~ label,
+.container .inputbox input:valid ~ label{
+    top: -33px;
+    left:0;
+    color: #03a9f4;
+    font-size: 16px;
+}
+
+.container input[type="submit"]{
+    background: transparent;
+    width: 30%;
+    height: 40px;
+    border:none;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.forget{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    
+}
+
+.forget-link{
+    text-decoration: none;
+    color: wheat;
+    border-bottom: 2px solid skyblue;
+}
+
+.sign-up-bottom{
+    width: 25%;
+    height: 45px;
+    margin-left: 35%;
+    margin-top: 15px;
+    
+}
+
+.sign-up-bottom input{
+    width: 100%;
+    height: 100%;
+    background-color: #03a9f4;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-size: 24px;
+    
+}
+.dont{
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+}
+
+
+@media(max-width:880px){
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: url("background2.jpg");
+        /* background: #060c21; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: cursive;
+    }
+    .container{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 500px;
+        background: rgba(0, 0, 0, .8);
+        padding: 60px;
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.5); 
+        border-radius: 10px;
+    }
+}
