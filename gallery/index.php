@@ -10,6 +10,16 @@
 
 </head>
 <body>
+      <div class="slogan">
+          " WORLD OF ITS OWN !!! " 
+      </div>
+      <div class="logout">
+        <div class="logout-name">Lalit Cahudhary</div>
+          <div class="logout-photo"><i class="fas fa-user"></i>
+            <div class="fully-logout">Log Out</div>
+            </div>
+          
+      </div>
     <div class="translate">
         <div id="google_translate_element"></div>
 
@@ -19,9 +29,11 @@
                     }
         </script>
 
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </div>
+
+
     <div class="container">
          <div class="box">
                 <div class="imgbox">
@@ -38,7 +50,7 @@
                  <div class="details">
                        <div class="content"></div>
                        <h2 class="text">LUMBINI</h2>
-                          <p>BIRTH PLACE OF GAUTAM BUDDHA(LIGHT OF ASIA)<br>
+                          <p>Birth place of Gautam Buddha(mayadevi temple)<br>
                             
                         </p>
                         <a href="#"><input type="button" value="Read More" class="read-more"></a>
@@ -204,11 +216,16 @@
             The Sinja Valley was where the Nepali language originates from .<br>
             <a href="#"><input type="button" value="Read More" class="read-more"></a>
         </p>
- </div>
 </div>
+</div>
+<div class="bottoms">
+    <a href="#" class="button"> Proceed <i class="fas fa-arrow-right"></i></a>
+</div>
+     
+    
          
 
-    </div>
+</div>
 
 
     
