@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:cursive;
+}
+
+
+#navbar{
+    width:100%;
+
+}
+.logo{
+    width: 15%;
+    margin-left: 10px;
+}
+.logo img{
+    float:left;
+    background:white;
+    border: none;
+    margin-left: 20px;
+    width: 90%;
+    height: 80px;
+    margin-top: 5px;
+}
+
+#navs{
+   width: 85%;
+    height:100px;
+    /* float: left; */
+}
+
+
+#navs a{
+    display: table-cell;
+    text-decoration:none;
+    color:#ffffee;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #000000;
+}
+.navs-div{
+    width: 15%;
+    font-size: 25px;
+    text-align: center;
+    display:table;
+    float:left; 
+    padding: 5px;
+    margin-left: 2%;
+}
+.navs-div-one{
+    width: 25%;
+    font-size: 25px;
+    text-align: center;
+    display:table;
+    float:left; 
+    padding: 5px;
+    margin-left: 2%;
+}
+.navs-div:hover, .navs-div-one:hover{
+    border-bottom: 5px solid blue;
+}
+h1,h2{
+    text-align:center;
+    color:white;
+}
+
+h1{
+    font-size:5em;
+}
+h2{
+    font-size:3em;
+}
+
+#greet{
+    margin-top:160px;
+}
+.main-navs{
+    width: 100%;
+    height: 625px;
+}
+
+#top-background{
+    background-image:url("images/background.webp") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    position:static;
+    width:100%;
+}
+
+.header-div{
+    width: 100%;
+    height: 100%;
+    background: #000000;
+}
+
+#contents{
+    background:rgb(228, 228, 250);
+    min-height:500px;
+    width:100%;
+}
+
+.container{
+    margin-top:50px;
+    width:80%;
+    float:right;
+    background:#eeeeee;
+    min-height:300px;
+}
+.image {
+    min-height:250px;
+    width:27%;
+    float:left;
+    position:absolute;
+}
+
+img{
+    width:130%;
+    margin-top:-20px;
+}
+
+.content {
+    background:rgb(227, 223, 248);
+    height:300px;
+    width:65%;
+    float:right;
+    box-shadow:1px 1px 8px 8px rgba(172, 169, 169, 0.349);
+}
+
+
+
+
+
+
+

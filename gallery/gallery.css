@@ -4,6 +4,22 @@ body{
     background: #262626;
     font-family: sans-serif;}
 
+#my_user{
+  background:white;
+  height:30px;
+  width:300px;
+  float:right;
+  margin-top:20px;
+  padding-top:10px
+}
+#my_user #logout{
+  /* background:rgb(98, 126, 98); */
+  height:45px;
+  width:250px;
+  margin-top:20px;
+  float:right;
+
+}
     
 .container{
     width: 95%;
