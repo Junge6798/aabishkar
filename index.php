@@ -59,8 +59,8 @@
             <br><br>
             <h2>Lifetime Experiences</h2>
             <div class="bottomslog">
-                <input type="button" value="Log In" class="lolo"> 
-                <input type="button" value="Sign Up" class="lolo"> 
+               <a href="login/index.php"><input type="button" value="Log In" class="lolo"></input></a>
+               <a href="signup/index.php"><input type="button" value="Sign Up" class="lolo"></input></a>
             </div>
         </section>
     </div>
